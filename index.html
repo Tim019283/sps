@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steen Papier Schaar</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <h1>Steen, papier, schaar game</h1>
+    <p>Computer: <span id="computer"></span></p>
+    <p>Jouw keuze: <span id="human"></span></p>
+    <p id="uitkomst">Uitkomst: <span id="result"></span></p>
+    <p id="roundsOutput">Rondes: 0</p>
+    <p id="highscoreOutput">Highscore: 0</p>
+    <div id="choices">
+      <img src="steen.png" alt="Steen" class="choice-image" id="rock">
+      <img src="papier.png" alt="Papier" class="choice-image" id="paper">
+      <img src="schaar.png" alt="Schaar" class="choice-image" id="scissors">
+    </div>
+    <img src="reset.png" alt="Reset" id="resetButton" class="reset-button">
+    <div id="allTimeHighscore">All-time Highscore: <span id="allTimeHighscoreValue">0</span></div>
+
+   <audio id="resetSound">
+      <source src="reset.mp3" type="audio/mpeg">
+   </audio>
+
+<script src="script.js"></script>
+</body>
+</html>
